@@ -12,7 +12,7 @@ const Awardcard =({award:{imgUrl,title ,subtitle }})=> (
         </div>
       </div>
       <div className="col-md-4 col-sm-4 text-center   text-sm-start  ">
-        <div className='ps-3'>
+        <div className='ps-md-3'>
         <h2>{title}</h2>
         <p>{subtitle}</p>
         </div>

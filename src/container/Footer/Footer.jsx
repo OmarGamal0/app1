@@ -7,8 +7,8 @@ import './Footer.css';
 
 const Footer = () => (
   <div className='app__footer app__bg section__padding ' id='footer'>
-    <Newsletter/>
   <div className='container '>
+      <Newsletter/>
       <div className='row text-center section__padding '>
         
         <div className='col-md-4'> 

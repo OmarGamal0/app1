@@ -30,7 +30,6 @@
 }
 
 .app__gallery-content button {
-    color: var(--color-black);
     font-family: var(--font-base);
     font-weight: 700;
     letter-spacing: 0.04em;
@@ -39,6 +38,7 @@
 
     border-radius: 0 !important;
     background-color: var(--color-golden) ;
+    color: var(--color-black);
 }
 
 .app__gallery-images_container img{
