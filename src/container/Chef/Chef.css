@@ -1,0 +1,39 @@
+.app__chef-image img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.app__chef-content  {
+    font-family: var(--font-base);
+    color: var(--color-white);
+}
+
+.app__chef-content h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+
+    color: var(--color-golden);
+}
+
+.app__chef-content p {
+    font-family: var(--font-alt);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+
+    color: var(--color-grey);
+}
+
+.app__chef-content h5  {
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+
+    color: var(--color-golden);
+}
+

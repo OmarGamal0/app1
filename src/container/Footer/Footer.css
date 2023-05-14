@@ -1,0 +1,38 @@
+.app__footer-cotactus h3 ,
+.app__footer-workinghours h3 {
+    
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+
+    color: var(--color-golden);
+}
+
+.app__footer-cotactus p ,
+.app__footer-workinghours p ,
+.app__footer-gericht p , 
+.app__footer-gericht h4 {
+    font-family:  var(--font-alt);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 175%;
+
+    color: var(--color-grey);
+}
+
+.app__footer-gericht h4 ,
+.app__footer-gericht_icons {
+color: #fff;
+
+}
+
+.app__footer-gericht image {
+    width: 289px;
+    height: 83px;  
+}
+
+
+

@@ -1,0 +1,52 @@
+.app__newsletter-body  {
+    background-color: var(--color-black);
+    border: 0.2px solid var(--color-golden);
+}
+
+.app__newsletter-head {
+    font-family: var(--font-base);
+    color: var(--color-white);
+}
+
+.app__newsletter-head h1 {
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+
+    color: var(--color-golden);
+}
+
+.app__newsletter-head p {
+    font-family: var(--font-alt);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+
+    color: var( --color-grey);
+}
+
+.app__newsletter-input input {
+    width: 620px;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+
+    color: var(--color-white);
+    background-color: var(--color-black) ;
+}
+
+.app__newsletter-input button {
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    border-radius: 0 !important;
+
+    background-color: var(--color-golden) ;
+    color: var(--color-black);
+}

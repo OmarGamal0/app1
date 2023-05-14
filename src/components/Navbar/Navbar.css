@@ -1,0 +1,39 @@
+
+.app__nav {
+    background: var( --color-black) ;
+    padding: 1rem 2rem !important;
+
+}
+
+.app_navbar-toggler-icon {
+    color: var(--color-golden);
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.nav-item a {
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+
+    position: relative;
+}
+
+.nav-item a:hover {
+    color: var(--color-grey) !important;
+}
+
+.app__nav-link__after a::after  {
+    content: '';
+    width: 1px;
+    height: 28px;
+    background-color:var(--color-grey);
+
+    position:absolute; 
+    right: 0px;
+}
+

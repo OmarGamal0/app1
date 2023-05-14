@@ -1,0 +1,40 @@
+
+.app__menuItem-title{
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 130%;
+
+    color: var( --color-golden);
+}
+
+.app__menuItem-price {
+    text-align: right;
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    
+    color: var(--color-white);
+}
+
+.app__menuItem-tags{
+    font-family: var(--font-alt);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 175%;
+
+    color: var(--color-grey);
+}
+
+
+.app__menuItem-dash {
+    width: 170px;
+    height: 1px ;
+   
+
+    background-color: var(--color-white);
+}

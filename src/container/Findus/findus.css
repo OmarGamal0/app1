@@ -1,0 +1,51 @@
+.app__findus-content {
+    font-family: var(--font-base);
+    color: var(--color-white);
+}
+
+.app__findus-content h1 {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+
+    color: var(--color-golden);
+}
+
+.app__findus-content p {
+    font-family: var(--font-alt);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+
+    color: var(--color-grey);
+}
+
+.app__findus-content h3  {
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+
+    color: var(--color-golden);
+}
+.app__findus-content h4 {
+    font-family: var(--font-alt);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+}
+
+.app__findus-content button {
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+
+    border-radius: 0 !important;
+    background-color: var(--color-golden) ;
+}

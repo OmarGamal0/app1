@@ -1,0 +1,55 @@
+.app__aboutus {
+    position: relative;
+    
+}
+
+.app__aboutus-overlay  {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}
+
+.app__aboutus-overlay img { 
+    height: 450px;
+    width: 470px;
+}
+
+.app__aboutus-info {
+    color: #fff; ;
+    text-align: right;
+}
+
+.app__aboutus-image img{
+   height: 800px;
+   width: 120px; 
+   
+}
+
+.app__aboutus-history{
+    color: #fff; ;
+}
+
+.app__aboutus-info h4 ,
+.app__aboutus-history h4 {
+    font-family: var(--font-base);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+    
+    color: var(--color-golden);
+}
+
+.app__aboutus-info button ,
+.app__aboutus-history button {
+   
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+
+    border-radius: 0 !important;
+    background-color: var(--color-golden) ;
+}

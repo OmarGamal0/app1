@@ -1,0 +1,53 @@
+.app__gallery {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    background-color: black;
+}
+
+.app__gallery-content {
+    font-family: var(--font-base);
+}
+
+.app__gallery-content h4 {
+    color: #fff;
+}
+
+.app__gallery-content h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 130%;
+
+    color: var(--color-golden);
+}
+
+.app__gallery-content p {
+    font-family: var(--font-alt);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+
+    color: var(--color-grey);
+}
+
+.app__gallery-content button {
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+
+    border-radius: 0 !important;
+    background-color: var(--color-golden) ;
+}
+
+.app__gallery-images_container img{
+    width: 100%;
+    height: auto;
+    border: 1px solid #dcca8749;
+
+}
+
