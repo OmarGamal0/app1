@@ -8,7 +8,7 @@ const Gallery = () => {
     const galleryImages =[images.gallery02,images.gallery03 ,images.gallery04]
 
 return(
-  <div className='app__gallery  ' id='chef'>
+  <div className='app__gallery  section__padding' id='chef'>
 
     <div className="container">
     <div className='row align-items-center'>
@@ -24,7 +24,7 @@ return(
 
        <div className='col-md-8 '>
        <div className='app__gallery-images_container row align-items-center  ' >
-       {galleryImages.map((image)=> <div className='col-md-3'><img className='p-2' src={image} alt='galleryImage'/></div> )}          
+       {galleryImages.map((image)=> <div className='col-md-4  '><img className='p-2' src={image} alt='galleryImage'/></div> )}          
        </div>
     
     </div>
