@@ -22,7 +22,7 @@ const Footer = () => (
         
         <div className='col-md-4'> 
           <div className='app__footer-gericht '>
-          <img  src={images.gericht} alt="gericht" />
+          <img className='w-100' src={images.gericht} alt="gericht" />
           <SubHeading title={"The best way to find yourself is to lose yourself in the service of others."}/>
             <div className='app__footer-gericht_icons '>
             <FiFacebook className='mx-1'/> <FiInstagram className='mx-1'/> <FiTwitter className='mx-1'/>
